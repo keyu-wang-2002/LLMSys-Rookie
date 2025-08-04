@@ -63,8 +63,8 @@ class DistillationTrainer(Trainer):
 ```
 
 Notes:
-1.How does distillation work? The softmax output of a teacher model conveys rich information not only about the correct class but also about the relative likelihoods of the incorrect classes. Some negative classes receive much higher probabilities than others, reflecting nuanced inter-class relationships. In standard training with “hard” targets, all incorrect classes are treated equally (probability = 0). Knowledge distillation, by contrast, uses these “soft” targets so that each training example provides the student model with far more information than the traditional one-hot labels do.
+
+1. How does distillation work? The softmax output of a teacher model conveys rich information not only about the correct class but also about the relative likelihoods of the incorrect classes. Some negative classes receive much higher probabilities than others, reflecting nuanced inter-class relationships. In standard training with “hard” targets, all incorrect classes are treated equally (probability = 0). Knowledge distillation, by contrast, uses these “soft” targets so that each training example provides the student model with far more information than the traditional one-hot labels do.
 (i) Easier optimization: By blending the hard target distribution from manual labels with the teacher model’s soft output distribution, the student’s loss surface becomes smoother—making it easier for the optimizer to locate the optimum and thus speeding up convergence.
 (ii) Better generalization: Learn from both true label and teacher model.
-
 2. Why do we use temperature? Raising the softmax temperature amplifies the logits of the negative classes, which flattens (smooths) the output probability distribution. A higher temperature thus reveals more detail about the teacher’s confidence across all classes, making it easier for the student to learn subtle distinctions.
