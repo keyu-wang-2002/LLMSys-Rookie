@@ -3,7 +3,15 @@
 ## Model Compression
 
 ### Pruning
+#### Unstructured Pruning
+1. SparseGPT: https://proceedings.mlr.press/v202/frantar23a/frantar23a.pdf
+2. Wanda: https://arxiv.org/pdf/2306.11695
+3. GBLM-Pruner: https://arxiv.org/pdf/2311.04902
 
+Refer Wanda for neat codebase.
+
+#### Structured Pruning
+Per-channel, Per-block, Per-layer
 
 ### Quantization
 
