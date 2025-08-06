@@ -17,6 +17,7 @@ Per-channel, Per-block, Per-layer
 1. GPTQ: https://arxiv.org/abs/2210.17323
 2. SmoothQuant: https://arxiv.org/abs/2211.10438
 3. AWQ: https://arxiv.org/abs/2306.00978
+4. QLoRA: https://arxiv.org/abs/2305.14314
 
 bitsandbytes -- library for Quantize LLMs:  https://github.com/bitsandbytes-foundation/bitsandbytes
 
