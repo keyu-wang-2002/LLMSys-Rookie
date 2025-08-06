@@ -1,4 +1,4 @@
-# MLSys-Rookie-Cookbook
+# MLSys-Rookie
 
 ## Model Compression
 
