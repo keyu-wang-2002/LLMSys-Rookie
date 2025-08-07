@@ -19,7 +19,7 @@
 
 ## IV. Model Compression
 
-### Pruning
+### (i) Pruning
 #### Unstructured Pruning
 1. SparseGPT: https://proceedings.mlr.press/v202/frantar23a/frantar23a.pdf
 2. Wanda: https://arxiv.org/pdf/2306.11695
@@ -30,7 +30,7 @@ Refer Wanda for neat codebase.
 #### Structured Pruning
 Per-channel, Per-block, Per-layer
 
-### Quantization
+### (ii) Quantization
 #### Post-Training Quantization
 1. GPTQ: https://arxiv.org/abs/2210.17323
 2. SmoothQuant: https://arxiv.org/abs/2211.10438
@@ -40,7 +40,7 @@ Per-channel, Per-block, Per-layer
 #### Useful library for Quantizing LLMs
 1. bitsandbytes:  https://github.com/bitsandbytes-foundation/bitsandbytes
 
-### Distillation
+### (iii) Distillation
 Knowledge distillation is a specialized form of **transfer learning** in which the “knowledge” (i.e. the learned output distributions) of a larger, pretrained teacher model is transferred to a smaller or simpler student model that is being trained on the same task. 
 
 The Process of Distillation (Denote teacher network as T, student network as S):
