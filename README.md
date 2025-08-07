@@ -1,14 +1,18 @@
 # MLSys-Rookie
-## Kernel
+## I. Kernel
 
 
-## Training
+## II. Training
 1. Megatron-LM: https://github.com/NVIDIA/Megatron-LM
 2. Deepspeed: https://github.com/deepspeedai/DeepSpeed
 3. LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
 
-
-## Sparse Attn / KV Compression
+## III. inference
+### Framework
+1. vllm: https://github.com/vllm-project/vllm
+2. llama.cpp: https://github.com/ggml-org/llama.cpp
+   
+### Sparse Attn / KV Compression
 1. DejaVu: http://proceedings.mlr.press/v202/liu23am.html
 2. Attention Sinks: https://arxiv.org/abs/2309.17453
 3. H2O: https://arxiv.org/abs/2306.14048
