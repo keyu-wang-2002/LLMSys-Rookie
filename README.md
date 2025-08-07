@@ -1,6 +1,18 @@
 # MLSys-Rookie
 ## Kernel
 
+
+## Training
+### Framework
+1. Megatron-LM: https://github.com/NVIDIA/Megatron-LM
+2. Deepspeed: https://github.com/deepspeedai/DeepSpeed
+3. LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
+
+### Paper
+
+
+## Sparse Attn / KV Compression
+
 ## Model Compression
 
 ### Pruning
@@ -21,7 +33,7 @@ Per-channel, Per-block, Per-layer
 3. AWQ: https://arxiv.org/abs/2306.00978
 #### Quantization-Aware Training
 1. QLoRA: https://arxiv.org/abs/2305.14314
-#### Useful library for Quantize LLMs
+#### Useful library for Quantizing LLMs
 1. bitsandbytes:  https://github.com/bitsandbytes-foundation/bitsandbytes
 
 ### Distillation
