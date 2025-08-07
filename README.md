@@ -3,15 +3,15 @@
 
 
 ## Training
-### Framework
 1. Megatron-LM: https://github.com/NVIDIA/Megatron-LM
 2. Deepspeed: https://github.com/deepspeedai/DeepSpeed
 3. LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
 
-### Paper
-
 
 ## Sparse Attn / KV Compression
+1. DejaVu: http://proceedings.mlr.press/v202/liu23am.html
+2. Attention Sinks: https://arxiv.org/abs/2309.17453
+3. H2O: https://arxiv.org/abs/2306.14048
 
 ## Model Compression
 
