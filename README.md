@@ -17,7 +17,7 @@
 2. Attention Sinks: https://arxiv.org/abs/2309.17453
 3. H2O: https://arxiv.org/abs/2306.14048
 
-## Model Compression
+## IV. Model Compression
 
 ### Pruning
 #### Unstructured Pruning
