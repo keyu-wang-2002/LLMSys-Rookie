@@ -19,9 +19,10 @@ Per-channel, Per-block, Per-layer
 1. GPTQ: https://arxiv.org/abs/2210.17323
 2. SmoothQuant: https://arxiv.org/abs/2211.10438
 3. AWQ: https://arxiv.org/abs/2306.00978
-4. QLoRA: https://arxiv.org/abs/2305.14314
 #### Quantization-Aware Training
-bitsandbytes -- library for Quantize LLMs:  https://github.com/bitsandbytes-foundation/bitsandbytes
+1. QLoRA: https://arxiv.org/abs/2305.14314
+#### Useful library for Quantize LLMs
+1. bitsandbytes:  https://github.com/bitsandbytes-foundation/bitsandbytes
 
 ### Distillation
 Knowledge distillation is a specialized form of **transfer learning** in which the “knowledge” (i.e. the learned output distributions) of a larger, pretrained teacher model is transferred to a smaller or simpler student model that is being trained on the same task. 
