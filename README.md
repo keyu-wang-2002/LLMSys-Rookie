@@ -50,5 +50,4 @@ The Process of Distillation (Denote teacher network as T, student network as S):
 ```
 Easy codes from scratch: https://github.com/KylinC/Llama-3-Distill
 
-Paper collections: https://github.com/FLHonker/Awesome-Knowledge-Distillation
 
