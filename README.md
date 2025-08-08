@@ -31,12 +31,13 @@ Refer Wanda for neat codebase.
 Per-channel, Per-block, Per-layer
 
 ### (ii) Quantization
-#### Post-Training Quantization
+#### Post-Training Quantization (PTQ)
 1. GPTQ: https://arxiv.org/abs/2210.17323
 2. SmoothQuant: https://arxiv.org/abs/2211.10438
 3. AWQ: https://arxiv.org/abs/2306.00978
-#### Quantization-Aware Training
+#### Quantization-Aware Training (QAT)
 1. QLoRA: https://arxiv.org/abs/2305.14314
+wow, GPT-oss uses QAT by mxfp4 !
 #### Useful library for Quantizing LLMs
 1. bitsandbytes:  https://github.com/bitsandbytes-foundation/bitsandbytes
 
