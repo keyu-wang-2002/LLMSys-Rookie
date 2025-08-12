@@ -1,4 +1,6 @@
 # MLSys-Rookie
+List of Paper, Codebases & Blogs for rookies
+
 updating...
 
 ## I. Kernel
@@ -33,7 +35,7 @@ updating...
 Refer Wanda for neat codebase.
 
 #### Structured Pruning
-Per-channel, Per-block, Per-layer
+Per-channel, Per-block, Per-layer (Refer ShortGPT: https://arxiv.org/abs/2403.03853)
 
 ### (ii) Quantization
 #### Post-Training Quantization (PTQ)
