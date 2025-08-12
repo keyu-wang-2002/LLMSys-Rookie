@@ -14,7 +14,10 @@ updating...
 1. vllm: https://github.com/vllm-project/vllm
 2. llama.cpp: https://github.com/ggml-org/llama.cpp
    
-### Sparse Attn / KV Compression
+### Attention Optimization (KV Compression / Sparse Atten)
+**Basics**: Multi-head Attention (MHA), Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-head Latent Attention (GLA); Paged Attention, FlashAttention
+
+**Paper**:
 1. DejaVu: http://proceedings.mlr.press/v202/liu23am.html
 2. Attention Sinks: https://arxiv.org/abs/2309.17453
 3. H2O: https://arxiv.org/abs/2306.14048
@@ -44,17 +47,6 @@ wow, GPT-oss uses QAT by mxfp4 !
 1. bitsandbytes:  https://github.com/bitsandbytes-foundation/bitsandbytes
 
 ### (iii) Distillation
-Knowledge distillation is a specialized form of **transfer learning** in which the “knowledge” (i.e. the learned output distributions) of a larger, pretrained teacher model is transferred to a smaller or simpler student model that is being trained on the same task. 
-
-The Process of Distillation (Denote teacher network as T, student network as S):
-```
-1. Keep weights of T frozen, weights of S trainable.
-2. Input sample x to T and S respectively, to get corresponding outputs t_out(x) and s_out(x)
-3. Calculate student loss between label y and student output s_out(x) by cross entropy loss: L_ce(s_out, y)=cross_entropy_loss(s_out, y)
-4. Calculate distillation loss between teacher output t_out(x) and student output s_out(x) by KL Divergence: L_kd=kl_div(s_out, t_out)
-5. The overall Loss: L = aL_ce + (1-a)L_kd
-6. Backward and update: L.backward() \ optimizer.step()
-```
 Easy codes from scratch: https://github.com/KylinC/Llama-3-Distill
 
 
