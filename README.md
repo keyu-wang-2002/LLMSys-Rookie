@@ -7,9 +7,10 @@ updating...
 
 
 ## II. Training
-1. Megatron-LM: https://github.com/NVIDIA/Megatron-LM
-2. Deepspeed: https://github.com/deepspeedai/DeepSpeed
-3. LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
+1. Unsloth: https://github.com/unslothai/unsloth
+2. Megatron-LM: https://github.com/NVIDIA/Megatron-LM
+3. Deepspeed: https://github.com/deepspeedai/DeepSpeed
+4. LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
 
 ## III. inference
 ### Framework
