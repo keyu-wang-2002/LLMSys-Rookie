@@ -14,7 +14,7 @@ updating...
 
 ## III. inference
 ### Framework
-1. vllm: https://github.com/vllm-project/vllm
+1. vllm (or Slang): https://github.com/vllm-project/vllm
 2. llama.cpp: https://github.com/ggml-org/llama.cpp
    
 ### Attention Optimization (KV Compression / Sparse Atten)
