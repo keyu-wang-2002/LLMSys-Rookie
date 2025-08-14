@@ -12,12 +12,12 @@ updating...
 3. Deepspeed: https://github.com/deepspeedai/DeepSpeed
 4. LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
 
-## III. inference
+## III. Inference
 ### Framework
 1. vllm (or Slang): https://github.com/vllm-project/vllm
 2. llama.cpp: https://github.com/ggml-org/llama.cpp
    
-### Attention Optimization (KV Compression / Sparse Atten)
+### (i) Attention Optimization (KV Compression / Sparse Atten)
 **Basics**: Multi-head Attention (MHA), Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-head Latent Attention (GLA); Paged Attention, FlashAttention
 
 **Paper**:
@@ -25,7 +25,7 @@ updating...
 2. Attention Sinks: https://arxiv.org/abs/2309.17453
 3. H2O: https://arxiv.org/abs/2306.14048
 
-### Speculative Reasoning
+### (ii) Speculative Reasoning
 
 ## IV. Model Compression
 
