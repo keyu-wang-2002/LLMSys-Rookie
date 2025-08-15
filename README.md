@@ -3,7 +3,10 @@ List of Paper, Codebases & Blogs for rookies
 
 updating...
 
-## I. Kernel
+## O. Hardware Optimization
+
+
+## I. System Optimization Basics: Operators & Kernels
 
 
 ## II. Training
@@ -48,7 +51,9 @@ Per-channel, Per-block, Per-layer (Refer ShortGPT: https://arxiv.org/abs/2403.03
 2. SmoothQuant: https://arxiv.org/abs/2211.10438
 3. AWQ: https://arxiv.org/abs/2306.00978
 #### Quantization-Aware Training (QAT)
+#### Q-PEFT
 1. QLoRA: https://arxiv.org/abs/2305.14314
+   
 wow, GPT-oss uses QAT by mxfp4 !
 #### Useful library for Quantizing LLMs
 1. bitsandbytes:  https://github.com/bitsandbytes-foundation/bitsandbytes
