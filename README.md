@@ -13,6 +13,8 @@ updating...
 4. LLaMA-Factory: https://github.com/hiyouga/LLaMA-Factory
 
 ## III. Inference
+A Road Map: https://arxiv.org/abs/2402.16363
+
 ### Framework
 1. vllm (or Slang): https://github.com/vllm-project/vllm
 2. llama.cpp: https://github.com/ggml-org/llama.cpp
