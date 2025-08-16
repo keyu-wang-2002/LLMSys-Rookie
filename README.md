@@ -23,7 +23,7 @@ A Road Map: https://arxiv.org/abs/2402.16363
 2. llama.cpp: https://github.com/ggml-org/llama.cpp
    
 ### (i) Attention Optimization (KV Compression / Sparse Atten)
-**Basics**: Multi-head Attention (MHA), Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-head Latent Attention (GLA); Paged Attention, FlashAttention
+**Basics**: Multi-head Attention (MHA), Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-head Latent Attention (GLA); FlashAttention
 
 **Paper**:
 1. DejaVu: http://proceedings.mlr.press/v202/liu23am.html
