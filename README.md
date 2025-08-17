@@ -28,7 +28,7 @@ A Road Map: https://arxiv.org/abs/2402.16363
 ### Fast Decoding
 
 ### Attention Compression
-**Basics**: Multi-head Attention (MHA), Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-head Latent Attention (GLA); FlashAttention
+**Basics**: Multi-head Attention (MHA), Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-head Latent Attention (GLA)
 
 **Paper**:
 1. DejaVu: http://proceedings.mlr.press/v202/liu23am.html
