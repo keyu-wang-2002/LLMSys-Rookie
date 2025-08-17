@@ -30,7 +30,7 @@ A Road Map: https://arxiv.org/abs/2402.16363
 ### 1. Model Compression
 
 #### (i) Pruning
-##### Unstructured Pruning
+##### - Unstructured Pruning
 Selectively eliminate individual weights from a model: Fine-grained, but hard to accelerate inference
 
 1. SparseGPT: https://proceedings.mlr.press/v202/frantar23a/frantar23a.pdf
@@ -38,24 +38,24 @@ Selectively eliminate individual weights from a model: Fine-grained, but hard to
 
 Refer Wanda for neat codebase.
 
-##### Structured Pruning
+##### - Structured Pruning
 Remove entire neurons or layers from a model: Coarse-grained, resulting in a cleaner, more regular structure and easier to accelerate inference.
 Per-neuron / Per-channel (LLM-Pruner: https://arxiv.org/abs/2305.11627), Per-block, Per-layer (ShortGPT: https://arxiv.org/abs/2403.03853)
 
 #### (ii) Quantization
-##### Post-Training Quantization (PTQ)
+##### - Post-Training Quantization (PTQ)
 Quantizate model parameters post the LLM’s training phase (mainstream in quantizing LLMs).
  
 1. GPTQ: https://arxiv.org/abs/2210.17323
 2. SmoothQuant: https://arxiv.org/abs/2211.10438
 3. AWQ: https://arxiv.org/abs/2306.00978
    
-##### Quantization-Aware Training (QAT)
+##### - Quantization-Aware Training (QAT)
 Integrate quantization into the model’s training process or during the fine-tuning/re-training of a pre-trained LLM
  
 Not common for LLMs
 
-##### Quantization for Parameter-Efficient Fine-Tuning (Q-PEFT)
+##### - Quantization for Parameter-Efficient Fine-Tuning (Q-PEFT)
 1. QLoRA: https://arxiv.org/abs/2305.14314
    
 wow, GPT-oss uses mxfp4 !
