@@ -1,4 +1,4 @@
-# MLSys for LLMs - Rookie Cookbook
+# MLSys for Efficient LLMs - Rookies' Cookbook
 List of Paper, Codebases & Blogs for rookies
 
 updating...
