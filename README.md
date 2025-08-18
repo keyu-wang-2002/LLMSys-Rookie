@@ -25,15 +25,19 @@ A Road Map: https://arxiv.org/abs/2402.16363
 2. SGLang: https://github.com/sgl-project/sglang
 3. llama.cpp: https://github.com/ggml-org/llama.cpp
 
+### 1. Early Exit
 
-
-### Contextual Sparsity
+### 2. Contextual Sparsity
 **Paper**:
 1. DejaVu: http://proceedings.mlr.press/v202/liu23am.html
-2. Attention Sinks: https://arxiv.org/abs/2309.17453
-3. H2O: https://arxiv.org/abs/2306.14048
 
-### Speculative Reasoning
+### 3. Mixture-of-Experts
+
+### 4. KV Compression
+1. Attention Sinks: https://arxiv.org/abs/2309.17453
+2. H2O: https://arxiv.org/abs/2306.14048
+
+### 5. Speculative Reasoning
 
 <br><br>
 
