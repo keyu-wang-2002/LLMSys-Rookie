@@ -26,6 +26,7 @@ A Road Map: https://arxiv.org/abs/2402.16363
 3. llama.cpp: https://github.com/ggml-org/llama.cpp
 
 ### 1. Early Exit
+1. LayerSkip: https://arxiv.org/abs/2404.16710
 
 ### 2. Contextual Sparsity (Width-wise)
 Dynamic sparsity depent on the input (context)
