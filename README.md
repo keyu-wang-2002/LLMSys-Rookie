@@ -30,7 +30,6 @@ A Road Map: https://arxiv.org/abs/2402.16363
 ### 2. Contextual Sparsity (Width-wise)
 Dynamic sparsity depent on the input (context)
 
-**Paper**:
 1. DejaVu: http://proceedings.mlr.press/v202/liu23am.html
 
 DejaVu inspires **LLM in a flash** (https://arxiv.org/abs/2312.11514) by Apple and **PowerInfer** (https://arxiv.org/abs/2312.12456)
