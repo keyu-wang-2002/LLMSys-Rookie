@@ -36,7 +36,7 @@ DejaVu inspires **LLM in a flash** (https://arxiv.org/abs/2312.11514) by Apple a
 
 ### 3. Mixture-of-Experts
 
-### 4. KV Compression
+### 4. Attention/KV Compression
 1. Attention Sinks: https://arxiv.org/abs/2309.17453
 2. H2O: https://arxiv.org/abs/2306.14048
 
