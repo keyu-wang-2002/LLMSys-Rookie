@@ -25,11 +25,9 @@ A Road Map: https://arxiv.org/abs/2402.16363
 2. SGLang: https://github.com/sgl-project/sglang
 3. llama.cpp: https://github.com/ggml-org/llama.cpp
 
-### Fast Decoding
 
-### Attention Compression
-**Basics**: Multi-head Attention (MHA), Multi-Query Attention (MQA), Grouped-Query Attention (GQA), Multi-head Latent Attention (GLA)
 
+### Contextual Sparsity
 **Paper**:
 1. DejaVu: http://proceedings.mlr.press/v202/liu23am.html
 2. Attention Sinks: https://arxiv.org/abs/2309.17453
