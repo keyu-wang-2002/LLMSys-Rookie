@@ -62,6 +62,8 @@ Remove entire neurons or layers from a model: Coarse-grained, resulting in a cle
 Per-neuron / Per-channel (LLM-Pruner: https://arxiv.org/abs/2305.11627), Per-block, Per-layer (ShortGPT: https://arxiv.org/abs/2403.03853)
 
 ### 2. Quantization
+Awesome blog: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization
+
 #### - Post-Training Quantization (PTQ)
 Quantizate model parameters post the LLM’s training phase (mainstream in quantizing LLMs).
  
