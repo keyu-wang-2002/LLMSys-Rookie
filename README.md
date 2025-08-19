@@ -36,6 +36,7 @@ Dynamic sparsity depent on the input (context)
 DejaVu inspires **LLM in a flash** (https://arxiv.org/abs/2312.11514) by Apple and **PowerInfer** (https://arxiv.org/abs/2312.12456)
 
 ### 3. Mixture-of-Experts
+Awesome blog: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
 
 ### 4. Attention/KV Compression
 1. Attention Sinks: https://arxiv.org/abs/2309.17453
