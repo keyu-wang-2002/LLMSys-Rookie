@@ -43,7 +43,11 @@ Awesome blog: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mix
 2. H2O: https://arxiv.org/abs/2306.14048
 
 ### 5. Speculative Reasoning
+1. Google: https://arxiv.org/abs/2211.17192
+2. Deepmind: https://arxiv.org/abs/2302.01318
 
+Simple demo: https://github.com/feifeibear/LLMSpeculativeSampling
+   
 <br><br>
 
 ## IV. Model Compression
