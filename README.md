@@ -1,11 +1,11 @@
 # MLSys for Efficient LLMs - Rookies' Cookbook
-List of Paper, Codebases & Blogs for rookies
+List of classical paper, neat codebases & awesome blogs for rookies
 
 updating...
 
 
 
-## I. System Optimization Basics: Operators & Kernels
+## I. System-codesign Basics: Operators & Kernels
 
 <br><br>
 
