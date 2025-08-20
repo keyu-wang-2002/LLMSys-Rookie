@@ -43,8 +43,16 @@ Awesome blog: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mix
 2. H2O: https://arxiv.org/abs/2306.14048
 
 ### 5. Speculative Reasoning
+Two foundational work by Google and Deepmind at the end of 2022:
+
 1. Google: https://arxiv.org/abs/2211.17192
 2. Deepmind: https://arxiv.org/abs/2302.01318
+
+The optimal cost-effectiveness by far (Aug. 2025):
+
+3. Eagle-3: https://arxiv.org/abs/2503.01840
+
+For those interested in advancing the state-of-the-art ceiling, attention can be directed to multi-level small-models SFT.
 
 Simple demo: https://github.com/feifeibear/LLMSpeculativeSampling
    
