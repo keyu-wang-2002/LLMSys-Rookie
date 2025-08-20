@@ -73,6 +73,7 @@ Refer Wanda for neat codebase.
 
 #### - Structured Pruning
 Remove entire neurons or layers from a model: Coarse-grained, resulting in a cleaner, more regular structure and easier to accelerate inference.
+
 Per-neuron / Per-channel (LLM-Pruner: https://arxiv.org/abs/2305.11627), Per-block, Per-layer (ShortGPT: https://arxiv.org/abs/2403.03853)
 
 ### 2. Quantization
