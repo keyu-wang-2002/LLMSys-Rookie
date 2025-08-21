@@ -40,7 +40,7 @@ Awesome blog: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mix
 
 ### 4. Attention Optimization
 1. Linear Attention: https://proceedings.mlr.press/v119/katharopoulos20a/katharopoulos20a.pdf
-2. Attention Sinks: https://arxiv.org/abs/2309.17453
+2. Attention Sinks for sliding attention: https://arxiv.org/abs/2309.17453
 
 ### 5. Speculative Reasoning
 Simple demo: https://github.com/feifeibear/LLMSpeculativeSampling
