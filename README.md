@@ -38,9 +38,9 @@ DejaVu inspires **LLM in a flash** (https://arxiv.org/abs/2312.11514) by Apple a
 ### 3. Mixture-of-Experts
 Awesome blog: https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts
 
-### 4. Attention/KV Compression
-1. Attention Sinks: https://arxiv.org/abs/2309.17453
-2. H2O: https://arxiv.org/abs/2306.14048
+### 4. Attention Optimization
+1. Linear Attention: https://proceedings.mlr.press/v119/katharopoulos20a/katharopoulos20a.pdf
+2. Attention Sinks: https://arxiv.org/abs/2309.17453
 
 ### 5. Speculative Reasoning
 Simple demo: https://github.com/feifeibear/LLMSpeculativeSampling
